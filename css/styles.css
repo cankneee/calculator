@@ -1,0 +1,162 @@
+.title {
+    display:flex;
+    justify-content: center;
+    color: black;
+}
+
+body{
+    justify-content: center;
+    background-color: lightgray;
+    
+}
+
+.flex_calculator {
+    display:flex;
+    justify-content: center;
+}
+
+/* .calculator {
+    display:flex;
+    justify-content: center;
+    background-color: red;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 100px;
+    max-height: 100px;
+    margin-top: 25px;
+} */
+
+   /*.screen {
+    display:flex;
+    justify-content: center;
+    text-align: right;
+    line-height: 25px;
+    background-color: white;
+    min-width: 450px;
+    max-height: 75px;
+    margin-top: 15px;
+} */
+
+#display {
+    text-align: right;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    background-color: white;
+    min-width: 500px;
+}
+
+
+.clear_container {
+    display:flex;
+    justify-content: center;
+}
+
+.clear_delete {
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: purple;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+
+#enter {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+
+
+.rows {
+    display:flex;
+    justify-content: center;
+}
+
+.row1 {
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: green;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+.row2 {
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: green;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+.row3 {
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: green;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+.row4 {
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: green;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+.top {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+#clear {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 125px;
+    max-width: 125px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    background-color: aqua;
+}
+
+#delete {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 125px;
+    max-width: 125px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    background-color: pink;
+}
